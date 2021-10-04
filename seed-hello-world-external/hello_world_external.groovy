@@ -1,5 +1,5 @@
 job('hello-world-external') {
   steps {
-    shell('echo Hello, World External!')
+    batchFile('echo Hello, World External!')
   }
 }
